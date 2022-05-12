@@ -1,0 +1,64 @@
+.carusel3 .element> img{
+    width: 100%;
+    height: 280px;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+.element-body {
+    padding: 0px 32px;
+    background-color: white;
+}
+.element-body p {
+    font-family: ProximaNova-Bold;
+    font-size: 18px;
+    font-weight: bold;
+}
+.element-body .element-info {
+    padding: 30px 0px;
+    font-size: 10px;
+    font-family: ProximaNova-Bold;
+    color: #1C1C1C;
+}
+.element-body .element-info span{
+    margin-right: 15px;
+    color: grey;
+}
+.element-body .element-info span svg{
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+}
+.element-body .author {
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.element-body .author img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.carusel3{
+    margin-top: 0px;
+}
+.element-body .author a{
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    color: grey;
+
+}
+.carusel3 .element:hover .element-body{
+    color: var(--color);
+}
+.carusel3 .element:hover img{
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%);
+}
+.carusel3 .element:hover .element-info span{
+    color:black;
+}
+
+ 

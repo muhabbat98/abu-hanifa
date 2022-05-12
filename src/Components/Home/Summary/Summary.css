@@ -1,0 +1,51 @@
+summary h3{
+    font-family: ProximaNova-Bold;
+    font-size: 40px;
+    margin: 50px 0px;
+    margin-bottom: 10px;
+}
+summary  h3, summary > p{
+    text-align: center;
+    padding: 15px;
+    
+}
+summary div.container> p{
+    font-family: ProximaNova-Regular;
+    margin: 0 auto;
+    width: 500px;
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+.question-submit{
+    text-align: center;
+}
+.question-submit input{
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    outline: none;
+    border: 1px solid var(--color);
+}
+.question-submit button{
+    display: block;
+    background-color: var(--color);
+    color: white;
+    margin: 0 auto;
+    padding: 15px;
+    outline: none;
+    border: 1px solid var(--color);
+    cursor: pointer;
+}
+.question-submit button:hover{
+    color: var(--color);
+    background-color: white;
+    border: 1px solid var(--color);
+}
+.question-submit span{
+    display: block;
+    margin: 20px 0px;
+}
+.question-submit span a{
+    color:  black;
+}
+

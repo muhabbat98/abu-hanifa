@@ -1,0 +1,27 @@
+.about{
+    margin-top: 90px;
+}
+.about h2{
+    text-transform: capitalize;
+    font-style: 40px;
+    font-family: ProximaNova-Bold;
+}
+.about .blog div{
+    width:  calc(100% / 2 - 30px);
+}
+
+.about .blog p{
+    padding: 25px 0;
+    font-size: 15px;
+    font-family: ProximaNova-Regular;
+}
+.frequent-asked h2{
+    font-size: 40px;
+    font-family: ProximaNova-Bold;
+    text-align: center;
+}
+.frequent-asked p{
+    text-align: center;
+    font-family: ProximaNova-Regular;
+    font-size: 15px;
+}

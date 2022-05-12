@@ -1,0 +1,40 @@
+footer{
+    margin-top: 100px;
+    background-color: white;
+}
+footer .logo h2{
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: Axiforma-Black, sans-serif;
+    text-align: center;
+    color: var(--color);
+}
+footer .logo span{
+    font-size: 10px;
+    font-family: ProximaNova-Regular;
+}
+footer  ul li{
+    display: inline-block;
+    padding: 15px;
+    font-size: 15px;
+    font-family: ProximaNova-Semibold;
+}
+footer ul li:last-child{
+    padding-right: 0px;
+}
+footer .icon ul li svg{
+    color: var(--color);
+    width: 23px;
+    height: 23px;
+
+}
+
+
+
+
+
+
+
+
+
+

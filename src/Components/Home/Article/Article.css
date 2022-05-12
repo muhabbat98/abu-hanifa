@@ -1,0 +1,77 @@
+article{
+    margin: 100px 0px;
+}
+.secondary-heading{
+    font-family: ProximaNova-Bold;
+    font-size: 40px;
+    color: #1C1C1C;
+    text-transform: capitalize;
+}
+article> div > div> p{
+    margin: 50px 0px;
+    width: 500px;
+    font-size: 15px;
+}
+.viewcourses a{
+    width: 111px;
+    font-size: 16px;
+    color: var(--color);
+    text-decoration: none;
+}
+.viewcourses a:hover{
+    margin-right: -15px;
+    text-decoration: underline;
+}
+.viewcourses svg{
+    margin-left: 15px;
+    width: 30px;
+    color: var(--color);
+}
+.teachers-section{
+    width: calc(100% / 4 - 30px);
+    height: 360px;
+}
+.bottom{
+    width: 85%;
+    background-color: rgba(255, 255,255,0.2);
+    backdrop-filter: blur(8px);
+    padding: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    border-bottom-left-radius: 15px;
+    bottom: 0;
+    left: 0;
+    transition: 2s width linear;
+}
+.bottom h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'proxima_nova_rgbold';
+}
+.bottom  p{
+    font-size: 12px;
+    font-family: 'proxima_nova_rgregular';
+}
+.next{
+    position: absolute;
+    width: 70px;
+    height: 44px;
+    background-color: var(--color);
+    border-radius: 15px 0px 15px 0px;
+    bottom: 0;
+    right: 0px;
+}
+.next svg{
+    color:white;
+    position: absolute;
+    top:15px;
+    left:25px
+}
+
+.teachers-section:hover .bottom{
+    background-color: white;
+    color:black
+}
+.teachers-section:hover .next svg{
+    width: 40px;
+}
